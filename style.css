@@ -120,6 +120,7 @@ main>h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    justify-content: center;
 }
 
 .card {
@@ -155,11 +156,59 @@ main>h1 {
     letter-spacing: 0.252px;
 }
 
+.see-more {
+    color: rgba(224, 44, 109, 0.87);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 15px;
+    padding: 5px;
+   text-align: right;
+}
+
+/* .see-more img {
+    padding-left: 5px;
+} */
+
+.bottom-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+
+}
 
 
+.featured-product-section h1 {
+    color: #0A0826;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+}
 
+.featured-product-section p {
+    color: #6C6C6C;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
 
+.join-now-btn {
+    display: inline-flex;
+    gap: 8px;
+    border: 0;
+    padding: 10px 24px;
+    background: #E02C6D;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
 
+}
 
 
 /* ==========MEDIA QUERY============= */
@@ -210,7 +259,7 @@ main>h1 {
         flex-wrap: wrap;
         gap: 30px;
     }
-    
+
     .product-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
