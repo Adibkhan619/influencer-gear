@@ -41,7 +41,7 @@ header{
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
-
+    margin-bottom: 60px;
 }
 
 .header-right {
@@ -86,11 +86,31 @@ header{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 700;
-
 }
 .arrow{
     padding-left: 8px;
 }
+
+.line{
+    height: 1.5px;
+    margin: 30px auto;
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
+}
+.sponsors-container{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+/* ==========MEDIA QUERY============= */
 
 
 @media screen and (max-width:576px){
@@ -122,5 +142,9 @@ header{
     }
     .header-left{
         text-align: center;
+    }
+
+    .sponsors-container{
+        flex-wrap: wrap;
     }
 }
