@@ -266,6 +266,11 @@ main>h1 {
         gap: 15px;
         justify-content: center;
     }
-
+    .bottom-section{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap:40px ;
+    }
 
 }
